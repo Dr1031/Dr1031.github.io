@@ -10,22 +10,26 @@
     box-sizing:border-box;
 }
 //清除浮动
-.clearfix:before,.clearfix:after {
-    content:"";
-    display: table;
+.clearfix {
+   zoom: 1;
 }
-.clearfix:after{
-    clear:both;
+.clearfix:before, .clearfix:after {
+   display: table;
+   content: "";
 }
-.clearfix{
-    zoom:1;
+.clearfix:after {
+   clear: both;
 }
 
-
+.container{
+    width:750px;
+    margin:0 auto;
+    background:#FF2a72;
+}
 .block{
     color:#fff;
     font-size:30px;
-    padding:30px;
+    padding:20px;
 }
 .block1{
     width:300px;
@@ -41,15 +45,9 @@
 }
 .footer{
     background: #fa7a00;
-
 }
 .footer-section{
     float: left;
-}
-.container{
-    width:750px;
-    margin:0 auto;
-    background:#FF2a72;
 }
 
 
