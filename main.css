@@ -15,6 +15,7 @@ body{
     margin:0;
     font: 14px/1.6 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
     color:#555;
+    min-width:500px;
 }
 //清除浮动
 .clearfix {
@@ -283,3 +284,5 @@ h3{
 .footer .subfoot a:hover{
    color:#ff571b;
 }
+
+
